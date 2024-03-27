@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: #111;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 3.9vw;
+}
+
+header ul li{
+    list-style: none;
+    color: #21bcdf;
+    margin-left: 1vw ;
+    text-decoration: none;
+}
+
+header ul li a {
+    color: #21bcdf;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    width: 100vw;
+    height: 90vh;
+    background-color: #111;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100%;
+    width: 50%;
+}
+
+.headerTxts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin: 10% 0 10% 0;
+}
+
+.headerTxts h1{
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.headerTxts span{
+    margin:2%;
+    color: #22d4fd;
+    font-size: 2rem;
+}
+
+.subH{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.subH h2{
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.boxTxt{
+    width: 80%;
+    height: 80%;
+    font-size: 1.1rem;
+}
+
+.boxTxt p{
+   margin: 2% 0 5% 0;
+    text-align: justify;
+    color: #ddd;    
+    font-weight: 300;
+}
+
+.img1{
+    width: 65%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: #21bcdf;
+}
+
+footer h1{
+    color: #111;
+    font-size: 1rem;
+}
